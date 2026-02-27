@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-TOKEN = os.environ.get("HHFJE0LPCJRIUREIMFORYJJXJLOVVMJATQYMYKFVTENKXQGMQZNYIHJKUSYQQCMK")
+TOKEN = os.environ.get("TOKEN")
 API_URL = f"https://botapi.rubika.ir/v3/{TOKEN}/"
 
 def send_message(chat_id, text, buttons=None):
